@@ -5,7 +5,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Import;
 
 @Import({
-        com.clf.basicproject.auth.SecurityConfig.class
+        com.clf.basicproject.auth.SecurityConfig.class,
+        com.clf.basicproject.web.WebConfig.class,
 })
 @SpringBootApplication
 public class BasicProjectApplication {
